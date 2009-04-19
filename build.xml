@@ -1,0 +1,5 @@
+<project name="ituneu">
+	<taskdef name="morph-deploy" classname="com.morphexchange.ant.task.MorphDeployer"/>
+	<morph-deploy configFile="morph_deploy.properties"
+	warFile="c:/temp/itunesu.war"/>
+</project>

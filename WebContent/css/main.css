@@ -1,0 +1,81 @@
+body{
+	
+}
+
+.header{
+
+}
+
+.menu{
+	
+}
+
+.menu a{
+	
+}
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;	
+}
+
+.header h1{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+.linkbox div{
+	padding: 5px;	
+}
+
+.linkbox ul{
+	list-style-type: none;	
+}
+
+.linkbox p{
+	padding: 2px;	
+}
+
+div.section{
+	margin-bottom: 20px;
+}
+
+.section h2{
+	padding-left:5px;
+}
+
+.course {
+	
+}
+
+.course h3 {
+	
+}
+
+img.course{
+	width: 60px;
+	height: 60px;	
+	float: left;
+	margin:0 10px 10px;
+}
+
+.item-detail{
+	padding: 0 10px 10px 10px;
+}
+.item-detail p span{
+	font-weight: bold;	
+}
+
+.reflect{
+	float:left;
+	margin: 5px;
+}
+.reflect, .reflected{
+	width: 100px;
+	height: 100px;	
+}
+.course p{
+	
+}
