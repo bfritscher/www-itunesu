@@ -1,81 +1,118 @@
-body{
-	
+ul{
+	list-style-type: none;
+}	
+.nav{
+	border:solid 1px #dedede;
+	background:#fff;
+	height: 20px;
+}        	
+.nav a.first span{
+	display:block;
+	height: 16px;
+	width: 16px;
+	margin: 2px;
+	background:url(img/IconHome.gif) no-repeat 0 0;
+}
+.nav a.first:hover span{
+	background-position: 0 -16px;
 }
 
-.header{
-
+.nav a:hover{
+	text-decoration: underline;
 }
 
-.menu{
-	
+.nav a, .nav a.first:hover{
+	text-decoration:none;
 }
+.nav a.last{
+	background: none;
+}		
 
-.menu a{
-	
+.nav a{
+	display: block;
+	float: left;
+	background: url(img/Chevron.gif) no-repeat 100% 0;
+	padding-right: 20px;
+	margin-left: 10px;
+	line-height: 20px;
+	height: 20px
 }
-a{
-	text-decoration: none;
+h1{
+	font-size:2.5em;
 }
-
-a:hover{
-	text-decoration: underline;	
+h2{
+	font-size:1.5em;
 }
-
-.header h1{
-	color:#FFFFFF;
+h3{
+	font-size:1em;
+}
+p{
+	margin-bottom: 0.5em;
+	font-size:0.9em;
+}
+.sectionhead h2{
+	margin: 0 9px 0 9px;
+	height: 20px;
+	font-size: 15px;
 	font-weight:bold;
 }
-
-.linkbox div{
-	padding: 5px;	
+.sectionbody{
+	padding-bottom: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-radius-bottomleft: 5px;
+	-webkit-border-radius-bottomright: 5px;
 }
-
-.linkbox ul{
-	list-style-type: none;	
+.sectionbody img{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	float: left;
+	border: 0;
+}					
+.sectionbody a, .linkbox a{
+	font-weight: bold;
+	text-decoration: none;
 }
-
-.linkbox p{
-	padding: 2px;	
+.sectionbody a:hover, .linkbox a:hover{
+	text-decoration: underline;
 }
-
-div.section{
+div.section {
 	margin-bottom: 20px;
 }
-
-.section h2{
-	padding-left:5px;
+.course div{
+	padding-top: 5px;
 }
-
-.course {
-	
+.rightbox{
+	float:right;
 }
-
-.course h3 {
-	
+.linkbox {
+	padding-top: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
-
-img.course{
-	width: 60px;
-	height: 60px;	
-	float: left;
-	margin:0 10px 10px;
-}
-
-.item-detail{
-	padding: 0 10px 10px 10px;
-}
-.item-detail p span{
-	font-weight: bold;	
-}
-
-.reflect{
-	float:left;
+.linkbox h3{
 	margin: 5px;
+	padding: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
-.reflect, .reflected{
-	width: 100px;
-	height: 100px;	
+.linkbox ul{
+	padding: 0 5px 5px 5px;
 }
-.course p{
-	
+
+.course-detail h2{
+	clear:both;
+}
+.groups div{
+	min-width:50px;
+	float:left;
+}
+.groups a{
+	display:block;
+	height:18px;
+	margin: 0 5px 0 6px;
+	padding: 0 10px 0 10px;
+	text-decoration:none;
+	font-weight:bold
 }
