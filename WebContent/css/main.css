@@ -11,7 +11,7 @@ ul{
 	height: 16px;
 	width: 16px;
 	margin: 2px;
-	background:url(img/IconHome.gif) no-repeat 0 0;
+	background:url(../img/IconHome.gif) no-repeat 0 0;
 }
 .nav a.first:hover span{
 	background-position: 0 -16px;
@@ -31,7 +31,7 @@ ul{
 .nav a{
 	display: block;
 	float: left;
-	background: url(img/Chevron.gif) no-repeat 100% 0;
+	background: url(../img/Chevron.gif) no-repeat 100% 0;
 	padding-right: 20px;
 	margin-left: 10px;
 	line-height: 20px;

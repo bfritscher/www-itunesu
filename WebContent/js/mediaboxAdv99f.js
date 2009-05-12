@@ -85,7 +85,7 @@ var Mediabox;
 				autoplayYes: 'yes',			// yes = true
 				bgcolor: '#000000',			// Background color, used for both flash and QT media
 //			JW Media Player settings and options
-				playerpath: '../embed/player.swf',	// Path to the mediaplayer.swf or flvplayer.swf file
+				playerpath: 'embed/player.swf',	// Path to the mediaplayer.swf or flvplayer.swf file
 				backcolor:  '000000',		// Base color for the controller, color name / hex value (0x000000)
 				frontcolor: '999999',		// Text and button color for the controller, color name / hex value (0x000000)
 				lightcolor: '000000',		// Rollover color for the controller, color name / hex value (0x000000)
